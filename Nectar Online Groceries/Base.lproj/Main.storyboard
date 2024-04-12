@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="32700.99.1234" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
-    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <device id="retina6_72" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22684"/>
@@ -14,38 +14,35 @@
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Nectar_Online_Groceries" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <rect key="frame" x="0.0" y="0.0" width="430" height="932"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="onboarding_hero" translatesAutoresizingMaskIntoConstraints="NO" id="tlZ-Lb-eHn">
-                                <rect key="frame" x="0.0" y="-7" width="393" height="870"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="onboarding_hero" translatesAutoresizingMaskIntoConstraints="NO" id="tlZ-Lb-eHn">
+                                <rect key="frame" x="0.0" y="0.0" width="430" height="932"/>
+                                <edgeInsets key="layoutMargins" top="8" left="8" bottom="8" right="8"/>
                             </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="gradient" translatesAutoresizingMaskIntoConstraints="NO" id="fq0-Mz-d0S">
-                                <rect key="frame" x="-9" y="0.0" width="402" height="852"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="gradient" translatesAutoresizingMaskIntoConstraints="NO" id="fq0-Mz-d0S">
+                                <rect key="frame" x="0.0" y="0.0" width="430" height="932"/>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LQq-RK-BqK">
-                                <rect key="frame" x="20" y="713" width="353" height="67"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LQq-RK-BqK">
+                                <rect key="frame" x="20" y="796.66666666666663" width="390" height="51.333333333333371"/>
                                 <color key="tintColor" red="0.42389473319999998" green="0.68469572069999995" blue="0.47840118409999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="filled" title="Get Started" buttonSize="large"/>
+                                <buttonConfiguration key="configuration" style="filled" title="Get Started" cornerStyle="large" buttonSize="large">
+                                    <fontDescription key="titleFontDescription" type="boldSystem" pointSize="18"/>
+                                </buttonConfiguration>
                             </button>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="NectarLogo" translatesAutoresizingMaskIntoConstraints="NO" id="tt1-00-JMt">
-                                <rect key="frame" x="172" y="474" width="48" height="56"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="NectarLogo" translatesAutoresizingMaskIntoConstraints="NO" id="tt1-00-JMt">
+                                <rect key="frame" x="150" y="535" width="130" height="57"/>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Welcome to our store" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="voo-1r-pe2">
-                                <rect key="frame" x="70" y="538" width="253" height="117"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="48"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Welcome to our store" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="voo-1r-pe2">
+                                <rect key="frame" x="70" y="602" width="290" height="114.66666666666663"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="48"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Get your groceries in as fast as one hour" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LP1-2y-JnS">
-                                <rect key="frame" x="50" y="656" width="293" height="20"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Get your groceries in as fast as one hour" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LP1-2y-JnS">
+                                <rect key="frame" x="50" y="726.66666666666663" width="330" height="20"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="16"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
@@ -53,6 +50,30 @@
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="fq0-Mz-d0S" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="1RP-BA-a76"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="voo-1r-pe2" secondAttribute="trailing" constant="70" id="1lR-Qi-cnv"/>
+                            <constraint firstItem="fq0-Mz-d0S" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailing" id="1vm-gD-qP5"/>
+                            <constraint firstItem="LP1-2y-JnS" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="50" id="Cld-zH-wcV"/>
+                            <constraint firstAttribute="bottom" secondItem="fq0-Mz-d0S" secondAttribute="bottom" id="Cn8-0f-14g"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="LP1-2y-JnS" secondAttribute="trailing" constant="50" id="FUa-8k-fHg"/>
+                            <constraint firstItem="tt1-00-JMt" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="150" id="HXW-pL-11U"/>
+                            <constraint firstItem="LP1-2y-JnS" firstAttribute="top" secondItem="voo-1r-pe2" secondAttribute="bottom" constant="10" id="Hsx-Zr-dlW"/>
+                            <constraint firstItem="LQq-RK-BqK" firstAttribute="top" secondItem="LP1-2y-JnS" secondAttribute="bottom" constant="50" id="OxP-FK-Rz4"/>
+                            <constraint firstItem="tlZ-Lb-eHn" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailing" id="Uu5-Om-fFD"/>
+                            <constraint firstItem="LQq-RK-BqK" firstAttribute="top" secondItem="LP1-2y-JnS" secondAttribute="bottom" constant="50" id="YpF-js-JKm"/>
+                            <constraint firstItem="LQq-RK-BqK" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="cc3-eZ-8ea"/>
+                            <constraint firstAttribute="bottom" secondItem="tlZ-Lb-eHn" secondAttribute="bottom" id="dUb-Ra-ISf"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="LQq-RK-BqK" secondAttribute="trailing" constant="20" id="j02-KA-3bk"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="tt1-00-JMt" secondAttribute="trailing" constant="150" id="kzo-nR-Nhn"/>
+                            <constraint firstItem="voo-1r-pe2" firstAttribute="top" secondItem="tt1-00-JMt" secondAttribute="bottom" constant="10" id="ond-q0-gVo"/>
+                            <constraint firstItem="tlZ-Lb-eHn" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="pXq-57-rkx"/>
+                            <constraint firstItem="LP1-2y-JnS" firstAttribute="top" secondItem="voo-1r-pe2" secondAttribute="bottom" constant="10" id="qRk-M5-rpf"/>
+                            <constraint firstItem="fq0-Mz-d0S" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="reZ-Dc-Rnq"/>
+                            <constraint firstItem="tlZ-Lb-eHn" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="sDL-0X-5tH"/>
+                            <constraint firstItem="voo-1r-pe2" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="70" id="xEP-jq-qvs"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="LQq-RK-BqK" secondAttribute="bottom" constant="50" id="yQR-e8-rzh"/>
+                        </constraints>
                     </view>
                     <connections>
                         <outlet property="onboardingBackground" destination="tlZ-Lb-eHn" id="Wfx-bM-bcm"/>

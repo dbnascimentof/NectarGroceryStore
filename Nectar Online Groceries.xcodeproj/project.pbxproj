@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		F8809ACB2BC979FE00522B6C /* Cover.png in Resources */ = {isa = PBXBuildFile; fileRef = F8809ACA2BC979FE00522B6C /* Cover.png */; };
+		F8BCD6EE2BC9879F00749493 /* Home.xib in Resources */ = {isa = PBXBuildFile; fileRef = F8BCD6ED2BC9879F00749493 /* Home.xib */; };
 		F8C42C822BC8C45200EC1431 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8C42C812BC8C45200EC1431 /* AppDelegate.swift */; };
 		F8C42C842BC8C45200EC1431 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8C42C832BC8C45200EC1431 /* SceneDelegate.swift */; };
 		F8C42C862BC8C45200EC1431 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8C42C852BC8C45200EC1431 /* ViewController.swift */; };
@@ -17,7 +18,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		F8809ACA2BC979FE00522B6C /* Cover.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Cover.png; path = ../../../../Downloads/Cover.png; sourceTree = "<group>"; };
+		F8809ACA2BC979FE00522B6C /* Cover.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Cover.png; sourceTree = "<group>"; };
+		F8BCD6ED2BC9879F00749493 /* Home.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Home.xib; sourceTree = "<group>"; };
 		F8C42C7E2BC8C45200EC1431 /* Nectar Online Groceries.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Nectar Online Groceries.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F8C42C812BC8C45200EC1431 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F8C42C832BC8C45200EC1431 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -47,6 +49,14 @@
 			path = Documentation;
 			sourceTree = "<group>";
 		};
+		F8BCD6EC2BC9877E00749493 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F8BCD6ED2BC9879F00749493 /* Home.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		F8C42C752BC8C45200EC1431 = {
 			isa = PBXGroup;
 			children = (
@@ -67,6 +77,7 @@
 		F8C42C802BC8C45200EC1431 /* Nectar Online Groceries */ = {
 			isa = PBXGroup;
 			children = (
+				F8BCD6EC2BC9877E00749493 /* View */,
 				F8C42C812BC8C45200EC1431 /* AppDelegate.swift */,
 				F8C42C832BC8C45200EC1431 /* SceneDelegate.swift */,
 				F8C42C852BC8C45200EC1431 /* ViewController.swift */,
@@ -137,6 +148,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F8C42C8B2BC8C45500EC1431 /* Assets.xcassets in Resources */,
+				F8BCD6EE2BC9879F00749493 /* Home.xib in Resources */,
 				F8C42C8E2BC8C45500EC1431 /* Base in Resources */,
 				F8C42C892BC8C45200EC1431 /* Base in Resources */,
 				F8809ACB2BC979FE00522B6C /* Cover.png in Resources */,

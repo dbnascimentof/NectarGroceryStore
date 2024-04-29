@@ -36,6 +36,7 @@ class OnboardingVC: UIViewController {
         
         backgroundImage.contentMode = .scaleAspectFill
         backgroundImage.image = UIImage(named: "onboarding_hero")
+        backgroundImage.addOverlay(color: .black, alpha: 0.3)
         
         view.addSubview(backgroundImage)
         self.view.sendSubviewToBack(backgroundImage)
@@ -43,5 +44,16 @@ class OnboardingVC: UIViewController {
     
     @objc func pushHomeVC() {
         navigationController?.pushViewController(HomeVC(), animated: true)
+    }
+}
+
+extension UIView {
+    func addOverlay(color: UIColor, alpha: CGFloat) {
+        let overlay = UIView()
+        
+        overlay.frame = bounds
+        overlay.backgroundColor = color
+        overlay.alpha = alpha
+        addSubview(overlay)
     }
 }

@@ -13,6 +13,7 @@ class HomeVC: UITabBarController {
         super.viewDidLoad()
         
         self.setViewControllers([createShopNC(), createExploreNC(), createCartNC(), createFavoriteNC(), createAccountNC()], animated: true)
+        self.tabBar.tintColor = .systemGreen
     }
     
     override func viewWillAppear(_ animated: Bool) {

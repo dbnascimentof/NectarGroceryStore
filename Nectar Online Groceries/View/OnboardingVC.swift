@@ -14,7 +14,7 @@ class OnboardingVC: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        view.backgroundColor = .systemBackground
+        configureBackgroundImage()
         configureCallToActionButton()
     }
     
@@ -28,6 +28,17 @@ class OnboardingVC: UIViewController {
             callToActionButton.trailingAnchor.constraint(equalTo: view.trailingAnchor, constant: -30.5),
             callToActionButton.heightAnchor.constraint(equalToConstant: 67)
         ])
+    }
+    
+    // this function configures the image that is used on the background.
+    func configureBackgroundImage() {
+        let backgroundImage = UIImageView(frame: view.bounds)
+        
+        backgroundImage.contentMode = .scaleAspectFill
+        backgroundImage.image = UIImage(named: "onboarding_hero")
+        
+        view.addSubview(backgroundImage)
+        self.view.sendSubviewToBack(backgroundImage)
     }
     
     @objc func pushHomeVC() {

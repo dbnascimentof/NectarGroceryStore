@@ -73,8 +73,8 @@
 		F8BCD6EC2BC9877E00749493 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				F88DED322BE03A1E003F1F47 /* HomeVC.swift */,
 				F88DED342BE03C0C003F1F47 /* OnboardingVC.swift */,
+				F88DED322BE03A1E003F1F47 /* HomeVC.swift */,
 				F88DED3B2BE05698003F1F47 /* ShopVC.swift */,
 				F88DED3D2BE05772003F1F47 /* ExploreVC.swift */,
 				F88DED3F2BE05D39003F1F47 /* CartVC.swift */,

@@ -8,25 +8,37 @@
 
 /* Begin PBXBuildFile section */
 		F8809ACB2BC979FE00522B6C /* Cover.png in Resources */ = {isa = PBXBuildFile; fileRef = F8809ACA2BC979FE00522B6C /* Cover.png */; };
-		F8BCD6EE2BC9879F00749493 /* Home.xib in Resources */ = {isa = PBXBuildFile; fileRef = F8BCD6ED2BC9879F00749493 /* Home.xib */; };
+		F88DED332BE03A1E003F1F47 /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F88DED322BE03A1E003F1F47 /* HomeVC.swift */; };
+		F88DED352BE03C0C003F1F47 /* OnboardingVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F88DED342BE03C0C003F1F47 /* OnboardingVC.swift */; };
+		F88DED382BE03C5E003F1F47 /* NOGButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = F88DED372BE03C5E003F1F47 /* NOGButton.swift */; };
+		F88DED3A2BE04616003F1F47 /* NOGTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = F88DED392BE04616003F1F47 /* NOGTextField.swift */; };
+		F88DED3C2BE05698003F1F47 /* ShopVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F88DED3B2BE05698003F1F47 /* ShopVC.swift */; };
+		F88DED3E2BE05772003F1F47 /* ExploreVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F88DED3D2BE05772003F1F47 /* ExploreVC.swift */; };
+		F88DED402BE05D39003F1F47 /* CartVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F88DED3F2BE05D39003F1F47 /* CartVC.swift */; };
+		F88DED422BE05DE5003F1F47 /* FavoriteVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F88DED412BE05DE5003F1F47 /* FavoriteVC.swift */; };
+		F88DED442BE05E44003F1F47 /* AccountVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F88DED432BE05E44003F1F47 /* AccountVC.swift */; };
 		F8C42C822BC8C45200EC1431 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8C42C812BC8C45200EC1431 /* AppDelegate.swift */; };
 		F8C42C842BC8C45200EC1431 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8C42C832BC8C45200EC1431 /* SceneDelegate.swift */; };
 		F8C42C862BC8C45200EC1431 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8C42C852BC8C45200EC1431 /* ViewController.swift */; };
-		F8C42C892BC8C45200EC1431 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = F8C42C882BC8C45200EC1431 /* Base */; };
 		F8C42C8B2BC8C45500EC1431 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F8C42C8A2BC8C45500EC1431 /* Assets.xcassets */; };
-		F8C42C8E2BC8C45500EC1431 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = F8C42C8D2BC8C45500EC1431 /* Base */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		F8809ACA2BC979FE00522B6C /* Cover.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Cover.png; sourceTree = "<group>"; };
-		F8BCD6ED2BC9879F00749493 /* Home.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Home.xib; sourceTree = "<group>"; };
+		F88DED322BE03A1E003F1F47 /* HomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
+		F88DED342BE03C0C003F1F47 /* OnboardingVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingVC.swift; sourceTree = "<group>"; };
+		F88DED372BE03C5E003F1F47 /* NOGButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NOGButton.swift; sourceTree = "<group>"; };
+		F88DED392BE04616003F1F47 /* NOGTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NOGTextField.swift; sourceTree = "<group>"; };
+		F88DED3B2BE05698003F1F47 /* ShopVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShopVC.swift; sourceTree = "<group>"; };
+		F88DED3D2BE05772003F1F47 /* ExploreVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExploreVC.swift; sourceTree = "<group>"; };
+		F88DED3F2BE05D39003F1F47 /* CartVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartVC.swift; sourceTree = "<group>"; };
+		F88DED412BE05DE5003F1F47 /* FavoriteVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteVC.swift; sourceTree = "<group>"; };
+		F88DED432BE05E44003F1F47 /* AccountVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountVC.swift; sourceTree = "<group>"; };
 		F8C42C7E2BC8C45200EC1431 /* Nectar Online Groceries.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Nectar Online Groceries.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F8C42C812BC8C45200EC1431 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F8C42C832BC8C45200EC1431 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		F8C42C852BC8C45200EC1431 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		F8C42C882BC8C45200EC1431 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F8C42C8A2BC8C45500EC1431 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		F8C42C8D2BC8C45500EC1431 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F8C42C8F2BC8C45500EC1431 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -49,10 +61,25 @@
 			path = Documentation;
 			sourceTree = "<group>";
 		};
+		F88DED362BE03C39003F1F47 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				F88DED372BE03C5E003F1F47 /* NOGButton.swift */,
+				F88DED392BE04616003F1F47 /* NOGTextField.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
 		F8BCD6EC2BC9877E00749493 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				F8BCD6ED2BC9879F00749493 /* Home.xib */,
+				F88DED322BE03A1E003F1F47 /* HomeVC.swift */,
+				F88DED342BE03C0C003F1F47 /* OnboardingVC.swift */,
+				F88DED3B2BE05698003F1F47 /* ShopVC.swift */,
+				F88DED3D2BE05772003F1F47 /* ExploreVC.swift */,
+				F88DED3F2BE05D39003F1F47 /* CartVC.swift */,
+				F88DED412BE05DE5003F1F47 /* FavoriteVC.swift */,
+				F88DED432BE05E44003F1F47 /* AccountVC.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -77,13 +104,12 @@
 		F8C42C802BC8C45200EC1431 /* Nectar Online Groceries */ = {
 			isa = PBXGroup;
 			children = (
+				F88DED362BE03C39003F1F47 /* Components */,
 				F8BCD6EC2BC9877E00749493 /* View */,
 				F8C42C812BC8C45200EC1431 /* AppDelegate.swift */,
 				F8C42C832BC8C45200EC1431 /* SceneDelegate.swift */,
 				F8C42C852BC8C45200EC1431 /* ViewController.swift */,
-				F8C42C872BC8C45200EC1431 /* Main.storyboard */,
 				F8C42C8A2BC8C45500EC1431 /* Assets.xcassets */,
-				F8C42C8C2BC8C45500EC1431 /* LaunchScreen.storyboard */,
 				F8C42C8F2BC8C45500EC1431 /* Info.plist */,
 			);
 			path = "Nectar Online Groceries";
@@ -148,9 +174,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				F8C42C8B2BC8C45500EC1431 /* Assets.xcassets in Resources */,
-				F8BCD6EE2BC9879F00749493 /* Home.xib in Resources */,
-				F8C42C8E2BC8C45500EC1431 /* Base in Resources */,
-				F8C42C892BC8C45200EC1431 /* Base in Resources */,
 				F8809ACB2BC979FE00522B6C /* Cover.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -163,31 +186,21 @@
 			buildActionMask = 2147483647;
 			files = (
 				F8C42C862BC8C45200EC1431 /* ViewController.swift in Sources */,
+				F88DED332BE03A1E003F1F47 /* HomeVC.swift in Sources */,
+				F88DED422BE05DE5003F1F47 /* FavoriteVC.swift in Sources */,
+				F88DED3C2BE05698003F1F47 /* ShopVC.swift in Sources */,
+				F88DED3E2BE05772003F1F47 /* ExploreVC.swift in Sources */,
+				F88DED382BE03C5E003F1F47 /* NOGButton.swift in Sources */,
+				F88DED352BE03C0C003F1F47 /* OnboardingVC.swift in Sources */,
+				F88DED3A2BE04616003F1F47 /* NOGTextField.swift in Sources */,
+				F88DED442BE05E44003F1F47 /* AccountVC.swift in Sources */,
 				F8C42C822BC8C45200EC1431 /* AppDelegate.swift in Sources */,
+				F88DED402BE05D39003F1F47 /* CartVC.swift in Sources */,
 				F8C42C842BC8C45200EC1431 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		F8C42C872BC8C45200EC1431 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				F8C42C882BC8C45200EC1431 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		F8C42C8C2BC8C45500EC1431 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				F8C42C8D2BC8C45500EC1431 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		F8C42C902BC8C45500EC1431 /* Debug */ = {
@@ -321,7 +334,6 @@
 				INFOPLIST_KEY_CFBundleDisplayName = "Nectar Store";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -349,7 +361,6 @@
 				INFOPLIST_KEY_CFBundleDisplayName = "Nectar Store";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F81782182BE154E100ED8A30 /* UIViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F81782172BE154E100ED8A30 /* UIViewExtension.swift */; };
 		F8809ACB2BC979FE00522B6C /* Cover.png in Resources */ = {isa = PBXBuildFile; fileRef = F8809ACA2BC979FE00522B6C /* Cover.png */; };
 		F88DED332BE03A1E003F1F47 /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F88DED322BE03A1E003F1F47 /* HomeVC.swift */; };
 		F88DED352BE03C0C003F1F47 /* OnboardingVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F88DED342BE03C0C003F1F47 /* OnboardingVC.swift */; };
@@ -24,6 +25,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		F81782172BE154E100ED8A30 /* UIViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewExtension.swift; sourceTree = "<group>"; };
 		F8809ACA2BC979FE00522B6C /* Cover.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Cover.png; sourceTree = "<group>"; };
 		F88DED322BE03A1E003F1F47 /* HomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
 		F88DED342BE03C0C003F1F47 /* OnboardingVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingVC.swift; sourceTree = "<group>"; };
@@ -53,6 +55,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		F81782192BE1552D00ED8A30 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				F81782172BE154E100ED8A30 /* UIViewExtension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
 		F8809AC92BC979E700522B6C /* Documentation */ = {
 			isa = PBXGroup;
 			children = (
@@ -105,6 +115,7 @@
 			isa = PBXGroup;
 			children = (
 				F88DED362BE03C39003F1F47 /* Components */,
+				F81782192BE1552D00ED8A30 /* Extensions */,
 				F8BCD6EC2BC9877E00749493 /* View */,
 				F8C42C812BC8C45200EC1431 /* AppDelegate.swift */,
 				F8C42C832BC8C45200EC1431 /* SceneDelegate.swift */,
@@ -195,6 +206,7 @@
 				F88DED3A2BE04616003F1F47 /* NOGTextField.swift in Sources */,
 				F88DED442BE05E44003F1F47 /* AccountVC.swift in Sources */,
 				F8C42C822BC8C45200EC1431 /* AppDelegate.swift in Sources */,
+				F81782182BE154E100ED8A30 /* UIViewExtension.swift in Sources */,
 				F88DED402BE05D39003F1F47 /* CartVC.swift in Sources */,
 				F8C42C842BC8C45200EC1431 /* SceneDelegate.swift in Sources */,
 			);
